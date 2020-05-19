@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header> 
+        <img src="images/welcome.png" alt="welcome image" class="hellobanner">
+        <nav class="nav">
+            <ul class="show-desktop hide-desktop" id="nav">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="aboutme.html" id="about me">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        <label for="input"> Hope your day is going well! <br> Leave anything thoughts you have in mind</label><br>
+        <!--<input type="text" id="input-box" placeholder="Please type here" value=""><br> -->
+        <textarea type="text" id="input-box" placeholder="Please type here" value=""></textarea><br> 
+        <button id = "add-button"> Add </button>
+        <button id = "delete-all-button"> Delete All </button>
+        <button id = "clear-button"> Clear </button>
+    </div>
+
+    <div class="textcontainer">
+        <button class="maincollapsible" id="text-region"> Comments </button>
+        <div class="contentcontainer" id="content">
+            <ul id= "messagelist">
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

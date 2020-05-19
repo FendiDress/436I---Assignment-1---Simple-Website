@@ -1,0 +1,115 @@
+.hellobanner {
+    -webkit-animation: myAnimation 5s linear infinite;
+}
+
+@-webkit-keyframes myAnimation{
+    0% {opacity: 1;}
+    25% {opacity: 0.5;}
+    50% {opacity: 0;}
+    75% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+.maincollapsible{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 8em;
+}
+
+.active, .maincollapsible:hover{
+    background-color:black;
+    color: pink;
+}
+
+
+
+body {
+    background-image: url("images/background2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+
+.contentcontainer{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: none;
+    padding-left: 0em;
+}
+
+.contentcontainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contentcontainer ul li{
+    margin:0;
+    padding: 1em;
+    word-wrap: break-word;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dark-mode {
+    background-color: #FDC7D7;
+    color:#FDF200;
+    opacity: 0.9;
+}
+
+.light-mode{
+    background-color:#A5D8F3;
+    color: #FF9DE6;
+    opacity: 0.9;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav ul li a {
+    font-weight: bold;
+    color: pink;
+    padding-right: 2em;
+    font-size: 1.5em;
+}
+
+.container label{
+    color: pink;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.container {
+    padding-top: 5em;
+}
+
+.container textarea {
+    width: 60%;
+    height: 10em;
+    text-align: inherit;
+}
+
+.container input::placeholder {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.textcontainer {
+    margin-top: 1em;
+}
